@@ -23,6 +23,10 @@
     &:after
       @include mixins.gradient-border
 
+    @media (min-width: 226px) and (max-width: 1120px)
+     &:after
+      width:0%
+
   p
     color: variables.$text-color-secondary
     margin-bottom: 1rem
